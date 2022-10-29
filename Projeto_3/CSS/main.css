@@ -1,0 +1,133 @@
+/*Limpando formatações padrão*/
+*{ margin: 0; padding: 0;}
+
+body{
+    font-size: 1em; /*equivale a 16px*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e6e6e6 ;
+}
+
+/*Layout*/
+
+#area-cabeçalho{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+#logo, menu{
+    padding: 10px;
+}
+
+#area-principal{
+    width: 920px; /*Tamanho mais utilizado no mercado para uma resulução de 1024p*/
+    margin: 0 auto; /* a margem automática na esq e dir ficam na mesma proporção, centralizando o conteúdo*/
+    padding: 15px;
+}
+
+
+.data{
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block; /*Transforma em bloco para poder aplicar as propriedades de espaçamento*/
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+
+.postagens{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+img{
+    margin-top: 5px;
+}
+
+p{
+    text-align: justify;
+}
+
+/*àrea de postagem lateral direita*/
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+.conteudo-lateral{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+/*--------------------------------------------*/
+
+#rodape{
+    background-color: #ccc;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+
+}
+
+
+/*Formatações dos links do menu*/
+a{
+    text-decoration: none;
+}
+
+#menu a:link, #menu :visited{
+    color: #fff;
+    padding: 08px 10px;
+}
+
+#menu a:hover{
+    color: #f75b00;
+    background: #fff;
+    text-decoration: none;
+}
+
+    /*Fomrtação para todos os outros links*/
+   
+    a:link, :visited{
+        color: #f7b600;      
+        
+    }
+    
+    a:hover{
+        text-decoration: underline;
+    }    
+
+/*Formatações gerais*/
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #f7b600;
+}
+
+h3{
+    color: #565656;
+    background-color: #ccc;
+    padding: 5px;
+}
+
+.branco{
+    color: white;
+}
+
+
